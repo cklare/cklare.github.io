@@ -18,6 +18,7 @@ body, html {
     background-color: #bc8da0ff;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #0c1713ff;
+    float: left;
 }
 
   .tablink {
@@ -29,7 +30,7 @@ body, html {
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
-    font-size: 30px;
+    font-size: 17px;
     width: 25%;
   }
   .tablink:hover {
@@ -47,13 +48,5 @@ body, html {
   }
   
   
-  #Home {background-color: #d9d0deff;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
-  #Research {background-color: #d9d0deff;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
-  #Teaching {background-color: #d9d0deff;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
-  #Fun {background-color: #d9d0deff;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
-#div {vertical-align: top;}
+
 
