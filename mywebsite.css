@@ -1,0 +1,43 @@
+body{
+    background-color: #d9d0deff;
+    border-color: #bc8da0ff;
+    color: #0c1713ff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    background-color: #ab4967ff;
+    color: #a04668ff;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+  .tablink {
+    background-color: #ab4967ff;
+    color: #0c1713ff;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+  .tablink:hover {
+    background-color: #bc8da0ff;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+  
+  #Home {background-color: #bc8da0ff;}
+  #Research {background-color: #d9d0deff;}
+  #Teaching {background-color: #ab4967ff;}
+  #Fun {background-color: #a04668ff;}
+
