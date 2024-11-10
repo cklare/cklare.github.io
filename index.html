@@ -6,30 +6,31 @@
         <title>Chloe Klare</title>
     </head>
     <body>
-        <script src="script.js"></script>
-        <button class="tablink" onclick="openPage('Home', this, '#bc8da0ff')">Home</button>
-        <button class="tablink" onclick="openPage('Research', this, '#bc8da0ff')" id="defaultOpen">Research</button>
-        <button class="tablink" onclick="openPage('Teaching & Outreach', this, '#bc8da0ff')">Teaching</button>
-        <button class="tablink" onclick="openPage('Just For Fun', this, '#bc8da0ff')">Fun</button>
+    <script src="script.js"></script>
+
     
-        <div id="Home" class="tabcontent">
-            <h3>Home</h3>
-            <p>Home is where the heart is..</p>
-        </div>
+    <div id="Home" class="tabcontent">
+        <h1>Home</h1>
+        <p>Home is where the heart is..</p>
+    </div>
     
-        <div id="Research" class="tabcontent">
-            <h3>Research</h3>
-            <p>Some news this fine day!</p>
-        </div>
+    <div id="Research" class="tabcontent">
+        <h1>Research</h1>
+        <p>Some news this fine day!</p>
+    </div>
     
-        <div id="Teaching & Outreach" class="tabcontent">
-            <h3>Teaching & Outreach</h3>
-            <p>Get in touch, or swing by for a cup of coffee.</p>
-        </div>
+    <div id="Teaching" class="tabcontent">
+        <h1>Teaching & Outreach</h1>
+        <p>Get in touch, or swing by for a cup of coffee.</p>
+    </div>
     
-        <div id="Just for Fun" class="tabcontent">
-            <h3>About Me</h3>
-            <p>Who we are and what we do.</p>
-        </div> 
+    <div id="Just for Fun" class="tabcontent">
+        <h1>Things Outside Astro</h1>
+        <p>Who we are and what we do.</p>
+    </div> 
+    <button class="tablink" onclick="openPage('Home', this, '#bc8da0ff')">Home</button>
+    <button class="tablink" onclick="openPage('Research', this, '#bc8da0ff')" id="defaultOpen">Research</button>
+    <button class="tablink" onclick="openPage('Teaching', this, '#bc8da0ff')">Teaching & Outreach</button>
+    <button class="tablink" onclick="openPage('Just For Fun', this, '#bc8da0ff')">Just For Fun</button>
     </body>
 </html>
