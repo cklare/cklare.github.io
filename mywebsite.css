@@ -5,8 +5,8 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 h1{
-    background-color: #ab4967ff;
-    color: #a04668ff;
+    background-color: #bc8da0ff;
+    color: #0c1713ff;
 }
 body, html {
     height: 100%;
@@ -14,7 +14,8 @@ body, html {
   }
 
   .tablink {
-    background-color: #ab4967ff;
+    background-color: #bc8da0ff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #0c1713ff;
     float: left;
     border: none;
@@ -25,19 +26,23 @@ body, html {
     width: 25%;
   }
   .tablink:hover {
-    background-color: #bc8da0ff;
+    background-color: #d9bfc9ff;
   }
   
   /* Style the tab content (and add height:100% for full page content) */
   .tabcontent {
-    color: white;
+    color: #0c1713ff;
     display: none;
     padding: 100px 20px;
     height: 100%;
   }
   
-  #Home {background-color: #bc8da0ff;}
-  #Research {background-color: #d9d0deff;}
-  #Teaching {background-color: #ab4967ff;}
-  #Fun {background-color: #a04668ff;}
+  #Home {background-color: #d9d0deff;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+  #Research {background-color: #d9d0deff;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+  #Teaching {background-color: #d9d0deff;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+  #Fun {background-color: #d9d0deff;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 
