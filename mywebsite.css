@@ -1,8 +1,7 @@
 body{
-    background-color: #d9d0deff;
-    border-color: #bc8da0ff;
+    background-color: #8c8c8e;
     color: #0c1713ff;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Candara, Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
     width: 100%;
     height: 100%;
 }
@@ -45,7 +44,7 @@ body, html {
 }
 .resizable-image{
             display: block;
-            margin: auto;
+            margin: 0 auto;
         }
 .profile-image {
     display: block;
