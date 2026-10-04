@@ -49,6 +49,7 @@ body, html {
     display: block;
     float: left;
     width: 90%;
+    height:auto;
         }
 .box {
   width: 25%;
