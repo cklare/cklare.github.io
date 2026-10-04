@@ -3,6 +3,8 @@ body{
     border-color: #bc8da0ff;
     color: #0c1713ff;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+    height: 100%;
 }
 h1{
     background-color: #06153c;
