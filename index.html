@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html, lang="en-US">
     <head>
         <link rel="stylesheet" href="mywebsite.css">
         
@@ -9,31 +9,189 @@
 
     <script src="script.js"></script>
 
+
+   <div class="container">
+    <div class = "box"> <img src="twilight_ctio.jpeg",class="resizeable-image", alt="sunset", width="100%">
+    </div> <div class = "box"> <img src="sky.jpeg",class="resizeable-image", alt="night", width="100%"> </div> <div class = "box"> <img src="mountain.jpeg",class="resizeable-image", alt="mountain", width="100%">
+    </div> <div class = "box"> <img src="vla.jpeg",class="resizeable-image", alt="vla", width="100%">
+    </div> 
+    </div> 
+   </div>
+   <div class="divider"></div>
+
+ <div class="main-block">
+    <div class="left-panel">
+        <div class="small-divider"></div>
         
-    <button class="tablink" onclick="openPage('Home', this, '#d9d0deff')">Home</button>
-    <button class="tablink" onclick="openPage('Research', this, '#d9d0deff')" id="defaultOpen">Research</button>
-    <button class="tablink" onclick="openPage('Teaching', this, '#d9d0deff')">Teaching & Outreach</button>
-    <button class="tablink" onclick="openPage('Fun', this, '#d9d0deff')">Just For Fun</button>
+        <div class="main-heading">
+            <div class="left-margin"></div>
+            <h1>Chloe Klare</h1>
+            <h4>Astronomer @ Penn State</h4>
+            <img src="profile_pic.jpeg", class="profile-image",alt="profile"> 
+            
+            <div style="float:left;"><p>Contact: chloe.klare [at] psu [dot] edu</p></div>
+            <p><a href="https://orcid.org/0000-0002-8899-3769" class="special_link">Publications (ORCiD)</a></p>
+            <p><a href="https://science.psu.edu/astro/people/cfk5343" class="special_link">Penn State Webpage</a></p>
+            <p><a href="https://astrobites.org/author/cklare/" class="special_link">Astrobites</a></p>
+            <p><a href="Klare_CV.pdf" class = "special_link">CV</a></p>
 
-
-    <div id="Home" class="tabcontent">
-        <h2>About Me</h2>
-        <p>Hi, welcome!</p>
+        </div>
+        
+      
+         
+    
+        
     </div>
+    <div class="right-panel">
+    
+   
+    <button class="tablink" style="background-color:#435583;" onclick="openPage('About')" id="defaultOpen">About</button>
+    <button class="tablink" style="background-color:#17131c;" onclick="openPage('Research')" >Research</button>
+    <button class="tablink" style="background-color:#0e1e07;" onclick="openPage('News + Outreach')">News + Outreach</button>
+    <button class="tablink" style="background-color:#335795;" onclick="openPage('Teaching')">Teaching</button>
+    <button class="tablink" style="background-color:#0a0033;" onclick="openPage('Fun')">Beyond Astro</button>
+  
+
+  
+
+ 
+    <div id="About" class="tabcontent">
+        <div class="subpage-divider1"></div>
+        <div class="subpage-margin1"></div>
+        <div class="mini-margin-left"></div>
+
+
+        <h2>About Me</h2>
+        <p style="margin-right:2%">Hi, my name is Chloe Klare and I'm a Ph.D. student in <a href="https://science.psu.edu/astro"class="regular_link"
+            >Astronomy and Astrophysics</a> at the Pennsylvania State University. I'm an observational radio astronomer, and I'm interested in radio-variable
+            active galactic nuclei and other extragalactic radio transients! You can read more about my research <a href="index.html#Research" 
+            onclick="openPage('Research')" class="regular_link">here</a>
+            and the work the rest of my research group (<a href="https://charlotteaward.github.io/" class="regular_link" >Ward group</a>) is doing
+            <a href="https://charlotteaward.github.io/research.html" class="regular_link">here</a>.
+              </p>
+        <p style="margin-right:2%;">Before moving to Penn State, I earned my bachelor degrees in Astronomy and Mathematics (+ Music minor)
+        from Florida Institute of Technology, where I worked on <a href="https://www.sciencedirect.com/science/article/abs/pii/S0019103521002554"
+        class="regular_link"> modeling of clouds in Jupiter's atmosphere</a>. </p>
+       
+        <img src="inside_vla.jpeg" class="resizable-image" style="float:left; margin-left:7.5%; margin-right:2%;" alt="visiting the VLA" height="48%">
+        <img src="vera_rubin.jpeg" class="resizable-image" style="float:left; margin-right:2%;" alt="visiting Vera Rubin" height="48%">
+        <img src="davey_lab.jpeg" class="resizable-image" style="float:left; margin-right:2%;" alt="psu telescope" height="48%">
+       
+        <p style="float: left; width: 90%; margin-left:3%;"><b>Left:</b> Standing next to the receivers in an antenna dish in the 
+            <a href="https://public.nrao.edu/telescopes/vla/" class="regular_link">Very Large Array</a>. <b>Middle:</b> Touring 
+            <a href="https://rubinobservatory.org/" class="regular_link">Vera Rubin Observatory</a> back before it was
+            operational. <b>Right:</b> Giving a tour of the domes on the roof of Davey Lab at Penn State!</p> 
+
+       
+        
+    </div>
+  
     <div id="Research" class="tabcontent">
-        <h2>Research</h2>
-        <p>Here's what I'm currently working on!</p>
+         <div class="subpage-divider2"></div>
+         <div class="subpage-margin2"></div>
+         <div class="mini-margin-left"></div>
+         
+        <h2>My Research</h2>
+        <p>I have been searching for newly launched radio jets in active galactic nuclei (AGN) with the Australia SKA Pathfinder 
+            (<a href="https://www.atnf.csiro.au/facilities/askap-radio-telescope/" class="regular_link">ASKAP</a>) 888 MHz survey for Variables and Slow Transients 
+            (<a href="https://vast-survey.org/", class="regular_link">VAST</a>). I selected a sample of 101 candidates which had increased in flux density by 80%-1800% 
+            over the past 2-7 years to investigate. Twenty-six were brightening due to intrinsic jet activity, and seven only appeared variable due to refractive interstellar
+            scintillation, but had inverted radio spectra, indicating that the source of the radio emission is very young or very compact. My paper is under review, 
+            but you can read the preprint <a href="https://arxiv.org/abs/2608.15711" class="regular_link">here</a>.</p>
+
+         <img src="changes.png" class="resizeable-image" alt="AGN sample" style="float: left; margin-right:1%;" height="45%" >
+       
+        <img src="vast_images_with_lc.png" class="resizable-image" style="float:left; margin-right:1%;" alt="VAST light curve" height="45%">
+         <img src="inverted.png" class="resizeable-image" alt="ATCA sed" style="margin-right:1%;" height="45%" >
+         
+        <div style="width:90%; float:left;"><p><b>Left:</b> My sample of radio variable AGN compared to all 65,000 VAST-detected AGN. <b>Middle: </b>VAST observations 
+            of ASKAP J040202.8-321845, an AGN with a brightening jet. <b>Right</b>: Quasi-simultaneous observations ASKAP J212956.7-385231 from the 
+            <a href="https://www.narrabri.atnf.csiro.au/" class="regular_link"> Australia Telescope
+            Compact Array</a> revealing a high-frequency peaked spectrum, indicating the radio source is very young. Klare+2026 (<i>submitted</i>).</p></div>
+
+        
+
+
+       
+    </div>
+    <div id="News + Outreach" class="tabcontent">
+        <div class="subpage-divider3"></div>
+         <div class="subpage-margin3"></div>
+         <div class="mini-margin-left"></div>
+        <h2>Astrobites</h2>
+        <p style="margin-right:2%;">I write for <a href="https://astrobites.org/author/cklare/" class="regular_link">Astrobites</a>, a science news publication run by physics and astronomy
+            graduate students from around the world and supported by the <a href="https://aas.org/" class="regular_link">American Astronomical Society</a>. I usually cover recent discoveries in
+            astronomy, but sometimes I get to write editorials, like <a href=
+            "https://astrobites.org/2025/08/18/the-top-ten-differential-equations-in-astronomy-ranked/" class="regular_link">
+             the top ten differential equations in astronomy</a> or <a href=
+            "https://astrobites.org/2026/09/01/why-radio-astronomy-is-the-best-astronomy/" class="regular_link">why radio is the best
+        band in the electromagnetic spectrum</a>.
+        </p>
+        <img class="resizable-image" style="float:right; margin-right:2%; margin-left:2%;" src="lobbying.JPG" alt="lobbying for science" height="60%">
+        <h2>Life...in Space!</h2>
+        <p>I direct an astrobiology-themed summer camp (Life...in Space!) for middle school students through 
+            <a href= "https://science.psu.edu/outreach/scienceu/2026" class="regular_link">Science-U</a> at Penn State. Visiting our very own on-campus 
+            <a href="https://www.rsec.psu.edu/Penn_State_Breazeale_Reactor.aspx" class="regular_link">Breazeale Nuclear Reactor</a>, embarking on a scale model of the Solar System
+            svavenger hunt, and creating a DIY supernova are always camper favorites. You can learn more about my camp <a href="
+        https://www.youtube.com/watch?v=Ce71kYeT4Fc" class="regular_link">here</a>!</p>
+         
+        <h2>In Other News...</h2>
+        <p>Outside of my usual outreach activities, I sometimes find other fun projects to work on, like moonlighting as a lobbyist on Capitol Hill to
+            save NASA or getting interviewed about studying astronomy by National Geographic!
+        </p>
+        <p>Read the (very cool) article here: <a href="https://www.nationalgeographic.com/science/article/why-apollo-missions-made-florida-space-coast-moon-landing" class=
+        "regular_link">Why the Apollo missions made Florida synoynmous with space</a>.</p>
+        <p>Did you know you can walk into <i>any</i> office on the Hill and the staffers <i>have</i> to listen to you, even if you aren't their direct constituent?
+             It works too; every representative whose office I visited to talk about the importance of funding astronomy research later voted to
+              <a href="https://www.astronomy.com/science/congress-passes-nasa-budget-rejects-trump-cuts/" class="regular_link">reject
+            proposed NASA budget cuts</a>! -></p>
+        
+        
+      
     </div>
     
     <div id="Teaching" class="tabcontent">
-        <h2>Teaching & Outreach</h2>
-        <p>Here's what I'm doing when I'm not doing research!</p>
+        <div class="subpage-divider4"></div>
+         <div class="subpage-margin4"></div>
+         <div class="mini-margin-left"></div>
+         
+        <h2>Courses I've Taught at Penn State</h2>
+        <img src="anti-AI-meme.png" style="float:right; margin-right:25%;" class="resizable-image" alt="academic integrity" height="70%">
+        
+        <p><a href="astro5.pdf" class="regular_link">ASTRO 5</a>: Sky and Planets* (Fall 2026)</p>
+        <p><a href="astro1.pdf" class="regular_link">ASTRO 1</a>: Astronomy Universe* (Fall 2025)</p>
+        <p><a href="astrocom.pdf" class="regular_link">ASTRO 237W</a>: Astronomy Communications (Fall 2024)</p>
+        <p>*I wrote the curriculum in addition to being the instructor of record.</p>
+
+         <p> Trying to inspire academic integrity in my students** -></p>
+         <p>**Don't worry, I'm not a hypocrite - can you tell I made this website from scratch too? My html skills have come a long way since my 
+            <a href="https://cierareu.northwestern.edu/2020CIERA_REU_websites/ChloeKlare/index.html?" class="regular_link">last attempt</a>.
+         </p>
+        
+        
     </div>
     <div id="Fun" class="tabcontent">
-        <h2>Things Outside Astro</h2>
-        <p>Other things I like to do!</p>
-    </div> 
+        <div class="subpage-divider5"></div>
+         <div class="subpage-margin5"></div>
+         <div class="mini-margin-left"></div>
+        
+        <h2>Beyond Astronomy</h2>
+        <p style="margin-right:2%;">Outside of working on my Ph.D. at Penn State, I compete on the <a href="https://www.instagram.com/psuclubgym/"
+            class="regular_link">Club Gymnastics </a>team and perform with the <a href=
+            "https://www.voledancecompany.com/" class="regular_link">Vol&#233; Dance Company</a>. I also love to travel, both for work and for fun (although I won't pass up
+            an opportunity for astronomy-adjacent sightseeing, even on Spring Break)!
+        </p>
+       <img src="sweden.jpeg" style="float:left; margin-right:2%;" class="resizable-image" alt="sweden planet hunt" height="60%">
+        <img src="crater.jpeg" style="float:left; margin-right:2%;" class="resizable-image" alt="visiting a crater" height="60%">
+        
+        <img src="nyc.jpeg" style="float:left; margin-bottom:1%;" class="resizable-image" alt="math museum" height="60%">
+        <p style="margin-right:3%;"><b>Left:</b> Road-tripping across Sweden to see
+            the world's largest scale model of the Solar System. <b>Middle:</b> Standing in the Vepriai impact crater in Lithuania. <b>Right:</b> Visiting the National Museum of Mathematics in New York City!</p>
     
+        
+    </div> 
+</div>
+</div>  
 
 
 
