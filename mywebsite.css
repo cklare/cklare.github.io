@@ -43,8 +43,8 @@ body, html {
   height:auto;
 }
 .resizable-image{
-            display: block;
-            margin: 0 auto;
+    display: block;
+    margin: 0 auto;
         }
 .profile-image {
     display: block;
