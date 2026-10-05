@@ -47,8 +47,8 @@ body, html {
     margin: 0;
         }
 .profile-image {
-    display: block;
-    float: left;
+    display: inline-block;
+   
     width: 90%;
     /*height:auto;*/
     margin-bottom: 2%;
@@ -132,11 +132,16 @@ body, html {
 /* If the container is larger than 700px */
 @container (width < 200px) {
   h1 {
-    font-size: 20px;
+    font-size: 25px;
   }
 }
 @container (width < 200px) {
    h4 {
+    font-size: 12px;
+  }
+}
+@container (width < 200px) {
+   p {
     font-size: 12px;
   }
 }
