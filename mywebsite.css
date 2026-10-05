@@ -78,7 +78,6 @@ body, html {
 }
 .left-panel{
   width: 20%;
-  min-width:300px;
   height: 100%;
   margin-left: 0%;
   float: left;
