@@ -153,6 +153,7 @@ body, html {
     width:1%;
     height: 90%;
     float: left;
+    min-width:10px;
     background-color:#435583;
   }
   
