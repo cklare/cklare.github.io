@@ -27,7 +27,7 @@ function openPage(pageName) {
         const text = container.querySelector('.shrink-text');
 
         // Start at the original font size
-        text.style.fontSize = '30px';
+        text.style.fontSize = '100%';
 
         // Shrink until it fits
         while (text.scrollWidth > container.clientWidth) {
