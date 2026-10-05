@@ -130,7 +130,7 @@ body, html {
 
 
 /* If the container is larger than 700px */
-@container (width < 50px) {
+@container (width < 200px) {
   h1 {
     font-size: 10px;
   }
