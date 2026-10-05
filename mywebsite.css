@@ -45,7 +45,6 @@ body, html {
 .resizable-image{
     display: block;
     margin: 0;
-    object-fit: cover;
         }
 .profile-image {
     display: block;
@@ -167,6 +166,7 @@ body, html {
     width:1%;
     height: 90%;
     float: left;
+    min-width:10px;
     background-color:#17131c;
   }
   .subpage-divider3{
@@ -179,6 +179,7 @@ body, html {
     width:1%;
     height: 90%;
     float: left;
+    min-width:10px;
     background-color:#0e1e07;
   }
 
@@ -192,6 +193,7 @@ body, html {
     width:1%;
     height: 90%;
     float: left;
+    min-width:10px;
     background-color:#335795;
   }
    .subpage-divider5{
@@ -204,6 +206,7 @@ body, html {
     width:1%;
     min-height: 90%;
     float: left;
+    min-width:10px;
     background-color:#0a0033;
   }
 
