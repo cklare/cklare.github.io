@@ -76,14 +76,14 @@ body, html {
   color: #465886;
 }
 .left-panel{
-  width: 22%;
+  width: 20%;
   height: 100%;
   margin-left: 0%;
   float: left;
   background-color: #06153c;
 }
 .right-panel{
-  width:78%;
+  width:80%;
   float: left;
   margin: 0%;
   height:100%;
@@ -123,11 +123,25 @@ body, html {
     color: #0c1713ff;
     float: left;
 }
+.post {
+  container-type: size;
+}
+/* Default heading styles for the buttons */
 
+
+/* If the container is larger than 700px */
+@container (width < 50px) {
+  h1 {
+    font-size: 10px;
+  }
+  h4 {
+    font-size: 5px;
+  }
+}
   .tablink {
     font-family: Candara,Lucida, 'Lucida Sans', sans-serif;
     color: #8c8c8e;
-    font-size: 90%;
+    font-size: 100%;
     float: left;
     border: none;
     outline: none;
