@@ -134,7 +134,7 @@ body, html {
     border: none;
     outline: none;
     cursor: pointer;
-    min-width: 20%;
+    width: 20%;
     height: 8%;
     margin-top: 0%;
     margin-bottom: 0%;
