@@ -8,8 +8,8 @@ body{
 h1{
     background-color: #06153c;
     color: #8c8c8e;
-    margin: 2%;
-    float: center;
+    margin: 0%;
+    float: left;
 }
 
 body, html {
