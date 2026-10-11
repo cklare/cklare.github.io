@@ -55,9 +55,9 @@
    
    
     <button class="tablink" style="background-color:#435583;" onclick="openPage('About')" id="defaultOpen">About</button>
-    <button class="tablink" style="background-color:#17131c;" onclick="openPage('Research')" >Research</button>
-    <button class="tablink" style="background-color:#0e1e07;" onclick="openPage('News + Outreach')">News + Outreach</button>
-    <button class="tablink" style="background-color:#335795;" onclick="openPage('Teaching')">Teaching</button>
+    <button class="tablink" style="background-color:#17131c;" onclick="openPage('Research')" >My Work</button>
+    <button class="tablink" style="background-color:#0e1e07;" onclick="openPage('News + Outreach')">News</button>
+    <button class="tablink" style="background-color:#335795;" onclick="openPage('Teaching')">Classes</button>
     <button class="tablink" style="background-color:#0a0033;" onclick="openPage('Fun')">Beyond Astro</button>
   
  
@@ -87,13 +87,33 @@
         class="regular_link"> modeling of clouds in Jupiter's atmosphere</a>. </p>
         </div>
        <div style="width:100%; height:60%;">
-        <img src="inside_vla.jpeg" class="resizable-image" style="float:left; margin-right:3%; width:auto; max-width:80%; object-fit:contain;" alt="visiting the VLA" height="100%">
-        <img src="vera_rubin.jpeg" class="resizable-image" style="float:left; margin-right:3%; width:auto; max-width:80%; object-fit:contain;" alt="visiting Vera Rubin" height="100%">
-        <img src="davey_lab.jpeg" class="resizable-image" style="float:left; margin-right:5%; width:auto; max-width:80%; object-fit:contain;" alt="psu telescope" height="100%"> </div>
-        <p style="float:top; width:90%;"><b>Left:</b> Standing next to the receivers in an antenna dish in the 
-            <a href="https://public.nrao.edu/telescopes/vla/" class="regular_link">Very Large Array</a>. <b>Middle:</b> Touring 
+        <!-- now make mini divs for each picture -->
+
+         <div style="width:32%; height:100%; float:left;">
+            <div style="width:98%; height:auto;">
+                <img src="inside_vla.jpeg" class="resizable-image" style="float:top; width:100%; object-fit:contain;" alt="visiting the VLA" height="auto">
+            </div>
+            <div style="width:98%; height:10%; float:bottom;"><p>Standing next to the receivers in an antenna dish in the 
+            <a href="https://public.nrao.edu/telescopes/vla/" class="regular_link">Very Large Array</a></p></div>
+        </div>
+
+        <div style="width:32%; height:100%; float:left;">
+            <div style="width:98%; height:auto;">
+                <img src="vera_rubin.jpeg" class="resizable-image" style="float:top; width:100%; object-fit:contain;" alt="visiting Vera Rubin" height="auto">
+            </div>
+            <div style="width:98%; height:10%; float:bottom;"><p>Touring 
             <a href="https://rubinobservatory.org/" class="regular_link">Vera Rubin Observatory</a> back before it was
-            operational. <b>Right:</b> Giving a tour of the domes on the roof of Davey Lab at Penn State!</p>
+            operational.</p></div>
+        </div>
+        <div style="width:32%; height:100%; float:left;">
+            <div style="width:98%; height:auto;">
+                <img src="davey_lab.jpeg" class="resizable-image" style="float:top; width:100%; object-fit:contain;" alt="psu telescope" height="auto"> </div>
+            <div style="width:98%; height:10%; float:bottom;"><p>Giving a tour of the domes on the roof of Davey Lab at Penn State!</p></div>
+        </div>
+            
+            
+        </div>
+
     </div>
 
     </div>
@@ -131,34 +151,41 @@
         <div class="subpage-divider3"></div>
          <div class="subpage-margin3"></div>
          <div class="mini-margin-left"></div>
-        <h2>Astrobites</h2>
-        <p style="margin-right:2%;">I write for <a href="https://astrobites.org/author/cklare/" class="regular_link">Astrobites</a>, a science news publication run by physics and astronomy
-            graduate students from around the world and supported by the <a href="https://aas.org/" class="regular_link">American Astronomical Society</a>. I usually cover recent discoveries in
-            astronomy, but sometimes I get to write editorials, like <a href=
-            "https://astrobites.org/2025/08/18/the-top-ten-differential-equations-in-astronomy-ranked/" class="regular_link">
-             the top ten differential equations in astronomy</a> or <a href=
-            "https://astrobites.org/2026/09/01/why-radio-astronomy-is-the-best-astronomy/" class="regular_link">why radio is the best
-        band in the electromagnetic spectrum</a>.
-        </p>
-        <img class="resizable-image" style="float:right; margin-right:2%; margin-left:2%; object-fit:contain; max-width: 95%;" src="lobbying.JPG" alt="lobbying for science" height="60%" loading="lazy">
-        <h2>Life...in Space!</h2>
-        <p>I direct an astrobiology-themed summer camp (Life...in Space!) for middle school students through 
-            <a href= "https://science.psu.edu/outreach/scienceu/2026" class="regular_link">Science-U</a> at Penn State. Visiting our very own on-campus 
-            <a href="https://www.rsec.psu.edu/Penn_State_Breazeale_Reactor.aspx" class="regular_link">Breazeale Nuclear Reactor</a>, embarking on a scale model of the Solar System
-            svavenger hunt, and creating a DIY supernova are always camper favorites. You can learn more about my camp <a href="
-        https://www.youtube.com/watch?v=Ce71kYeT4Fc" class="regular_link">here</a>!</p>
+        <div style="width:96%; padding-left:2%; padding-top:1%; float:center; height:80%;">
+            <div style="width:70%; float:left; height:100%;">
+                <h2>Astrobites</h2>
+                <p style="margin-right:2%;">I write for <a href="https://astrobites.org/author/cklare/" class="regular_link">Astrobites</a>, a science news publication run by physics and astronomy
+                graduate students from around the world and supported by the <a href="https://aas.org/" class="regular_link">American Astronomical Society</a>. I usually cover recent discoveries in
+                astronomy, but sometimes I get to write editorials, like <a href=
+                "https://astrobites.org/2025/08/18/the-top-ten-differential-equations-in-astronomy-ranked/" class="regular_link">
+                the top ten differential equations in astronomy</a> or <a href=
+                "https://astrobites.org/2026/09/01/why-radio-astronomy-is-the-best-astronomy/" class="regular_link">why radio is the best
+                band in the electromagnetic spectrum</a>.
+                </p>
+                <h2>Life...in Space!</h2>
+                <p>I direct an astrobiology-themed summer camp (Life...in Space!) for middle school students through 
+                <a href= "https://science.psu.edu/outreach/scienceu/2026" class="regular_link">Science-U</a> at Penn State. Visiting our very own on-campus 
+                <a href="https://www.rsec.psu.edu/Penn_State_Breazeale_Reactor.aspx" class="regular_link">Breazeale Nuclear Reactor</a>, embarking on a scale model of the Solar System
+                scavenger hunt, and creating a DIY supernova are always camper favorites. You can learn more about my camp <a href="
+                https://www.youtube.com/watch?v=Ce71kYeT4Fc" class="regular_link">here</a>!</p>
          
-        <h2>In Other News...</h2>
-        <p>Outside of my usual outreach activities, I sometimes find other fun projects to work on, like moonlighting as a lobbyist on Capitol Hill to
-            save NASA or getting interviewed about studying astronomy by National Geographic!
-        </p>
-        <p>Read the (very cool) article here: <a href="https://www.nationalgeographic.com/science/article/why-apollo-missions-made-florida-space-coast-moon-landing" class=
-        "regular_link">Why the Apollo missions made Florida synoynmous with space</a>.</p>
-        <p>Did you know you can walk into <i>any</i> office on the Hill and the staffers <i>have</i> to listen to you, even if you aren't their direct constituent?
-             It works too; every representative whose office I visited to talk about the importance of funding astronomy research later voted to
-              <a href="https://www.astronomy.com/science/congress-passes-nasa-budget-rejects-trump-cuts/" class="regular_link">reject
-            proposed NASA budget cuts</a>! -></p>
-        
+                <h2>In Other News...</h2>
+                <p>Outside of my usual outreach activities, I sometimes find other fun projects to work on, like moonlighting as a lobbyist on Capitol Hill to
+                save NASA or getting interviewed about studying astronomy by National Geographic!
+                </p>
+                <p>Read the (very cool) article here: <a href="https://www.nationalgeographic.com/science/article/why-apollo-missions-made-florida-space-coast-moon-landing" class=
+                "regular_link">Why the Apollo missions made Florida synoynmous with space</a>.</p>
+            </div>
+
+            <div style="width:28%; height:100%; float:right; padding-top:2%;">
+                <img class="resizable-image" style="float:top; width:100%; object-fit:contain;" src="lobbying.JPG" alt="lobbying for science" height="auto" loading="lazy">
+                <p style="float:bottom;">Did you know you can walk into <i>any</i> office on the Hill and the staffers <i>have</i> to listen to you, even if you aren't their direct constituent?
+                It works too; every representative whose office I visited to talk about the importance of funding astronomy research later voted to
+                <a href="https://www.astronomy.com/science/congress-passes-nasa-budget-rejects-trump-cuts/" class="regular_link">reject
+                proposed NASA budget cuts</a>!</p>
+            </div>
+       
+        </div>
         
       
     </div>
@@ -192,14 +219,18 @@
             an opportunity for astronomy-adjacent sightseeing, even on Spring Break)!
         </p></div>
         <div style="width:100%; height:72%;">
-       <img src="sweden.jpeg" style="float:left; margin-right:2%; object-fit:contain; max-width:90%;" class="resizable-image" alt="sweden planet hunt" height="100%" loading="lazy">
-        <img src="crater.jpeg" style="float:left; margin-right:2%; object-fit:contain; max-width:90%;" class="resizable-image" alt="visiting a crater" height="100%" loading="lazy">
-        
-        <img src="nyc.jpeg" style="float:left; margin-bottom:1%; object-fit:contain; max-width:90%;" class="resizable-image" alt="math museum" height="100%" loading="lazy">
-         </div>
-        <p style="float:top;"><b>Left:</b> Road-tripping across Sweden to see
-            the world's largest scale model of the Solar System. <b>Middle:</b> Standing in the Vepriai impact crater in Lithuania. <b>Right:</b> Visiting the National Museum of Mathematics in New York City!</p>
-       
+            <div style="width:32%; height:100%; float:left;">
+                <img src="sweden.jpeg" style="float:top; object-fit:contain; width:98%;" class="resizable-image" alt="sweden planet hunt" height="auto" loading="lazy">
+                <b style="float:bottom; width:98%;">Road-tripping across Sweden to see the world's largest scale model of the Solar System.</b>
+            </div>
+            <div style="width:32%; height:100%; float:left;">
+                <img src="crater.jpeg" style="float:top; object-fit:contain; width:98%;" class="resizable-image" alt="visiting a crater" height="auto" loading="lazy">
+                <p style="float:bottom;">Standing in the Vepriai impact crater in Lithuania.</p>
+            </div>
+            <div style="width:32%; height:100%; float:left;">
+                <img src="nyc.jpeg" style="float:top; width:98%; object-fit:contain;" class="resizable-image" alt="math museum" height="auto" loading="lazy">
+                <p style="float:bottom;">Visiting the National Museum of Mathematics in New York City!</p>
+            </div>
         </div>
     </div> 
 </div>
